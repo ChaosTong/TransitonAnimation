@@ -72,9 +72,10 @@
         case UIGestureRecognizerStateEnded: {
             _isInteractive = NO;
             //手势完成后结束标记并且判断移动距离是否过半，过则finishInteractiveTransition完成转场操作，否者取消转场操作，转场失败
-            if ((!_isLeft && percentComplete > 0.2) || percentComplete > 0.5) {
+            if ((!_isLeft && percentComplete > 0.3) || percentComplete > 0.4) {
                 [self finishInteractiveTransition];
             } else {
+                [[NSNotificationCenter defaultCenter] postNotificationName:@"Left" object:@{@"Left":@1}];
                 [self cancelInteractiveTransition];
             }
             break;

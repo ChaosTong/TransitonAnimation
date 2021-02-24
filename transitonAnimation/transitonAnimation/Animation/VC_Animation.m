@@ -35,13 +35,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    _isLeft = nil;
     self.navigationItem.title = @"左右侧滑返回转场";
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.imageView];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(loginStateChange:)
+                                             selector:@selector(isLeftGes:)
                                                  name:@"Left"
                                                object:nil];
 }
@@ -50,7 +50,7 @@
     self.navigationController.delegate = nil;
 }
 
-- (void)loginStateChange:(NSNotification *)notification {
+- (void)isLeftGes:(NSNotification *)notification {
     NSDictionary *dic = notification.object;
     _isLeft = [dic[@"Left"] boolValue];
 }

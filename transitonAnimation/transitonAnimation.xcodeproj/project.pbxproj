@@ -16,6 +16,7 @@
 		0F90CD0A25E61A5000484C9F /* CTTransitionInteractive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F90CD0625E61A5000484C9F /* CTTransitionInteractive.m */; };
 		0F90CD0B25E61A5000484C9F /* CTTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F90CD0725E61A5000484C9F /* CTTransitionAnimation.m */; };
 		0F90CD1425E622A800484C9F /* Chaos.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F90CD1325E622A700484C9F /* Chaos.png */; };
+		0F90CD1A25E62F3100484C9F /* C_Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F90CD1925E62F3100484C9F /* C_Navigation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		0F90CD0725E61A5000484C9F /* CTTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTransitionAnimation.m; sourceTree = "<group>"; };
 		0F90CD0825E61A5000484C9F /* VC_Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_Animation.h; sourceTree = "<group>"; };
 		0F90CD1325E622A700484C9F /* Chaos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chaos.png; sourceTree = "<group>"; };
+		0F90CD1825E62F3100484C9F /* C_Navigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C_Navigation.h; sourceTree = "<group>"; };
+		0F90CD1925E62F3100484C9F /* C_Navigation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C_Navigation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				0F90CD0825E61A5000484C9F /* VC_Animation.h */,
 				0F90CD0325E61A5000484C9F /* VC_Animation.m */,
+				0F90CD1825E62F3100484C9F /* C_Navigation.h */,
+				0F90CD1925E62F3100484C9F /* C_Navigation.m */,
 				0F90CD0525E61A5000484C9F /* CTTransitionAnimation.h */,
 				0F90CD0725E61A5000484C9F /* CTTransitionAnimation.m */,
 				0F90CD0425E61A5000484C9F /* CTTransitionInteractive.h */,
@@ -166,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F90CD0B25E61A5000484C9F /* CTTransitionAnimation.m in Sources */,
+				0F90CD1A25E62F3100484C9F /* C_Navigation.m in Sources */,
 				0F90CCED25E6189900484C9F /* ViewController.m in Sources */,
 				0F90CCE725E6189900484C9F /* AppDelegate.m in Sources */,
 				0F90CCF825E6189D00484C9F /* main.m in Sources */,
